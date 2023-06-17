@@ -25,13 +25,7 @@ public class stack {
             current=current.next;
         }
     }
-    public void pop(){
-        if(top==null){
-            System.out.println("stack underflow");
-            return;
-        }
-        top=top.next;
-    }
+    
 
     public static void main(String[] args) {
         stack list=new stack();
