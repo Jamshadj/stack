@@ -8,16 +8,7 @@ public class stack {
     }
 
     public Node top;
-    public void push(int element){
-        Node newNode=new Node(element);
-        if(top==null){
-            top=newNode;
-        }else{
-            newNode.next=top;
-            top=newNode;
-        }
-    }
-
+ 
     public void display(){
         Node current=top;
         while(current!=null){
